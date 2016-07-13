@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PanleView">
+        <attr name="arcColor" format="color" />
+        <attr name="arcWidth" format="dimension" />
+        <attr name="android:text" />
+        <attr name="tikeCount" format="integer" />
+        <attr name="pointerColor" format="color" />
+        <attr name="android:textSize" />
+        <attr name="arcType" format="integer" />
+    </declare-styleable>
+</resources>
