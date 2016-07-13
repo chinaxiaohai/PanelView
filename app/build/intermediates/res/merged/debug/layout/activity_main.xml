@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panle="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.panelview.PanelView
+        android:id="@+id/panle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="0km/h"
+        android:textSize="16sp"
+        panle:arcColor="#029f00"
+        panle:tikeCount="50" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/panle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:max="200" />
+
+    <com.panelview.MyView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        panle:arcWidth="5dp"
+        panle:arcColor="#029f00"
+        android:text="张"
+        android:layout_below="@+id/seekBar"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+<!-- From: file:/D:/android/PanelView/app/src/main/res/layout/activity_main.xml -->
